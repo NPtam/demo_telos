@@ -1,0 +1,13 @@
+#card{
+    animation-durration: 3s;
+    animation-name: fadein;
+}
+@keyframe fadein {
+    0%{
+        
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    } 
+}
